@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu>
+
+<menu id="browsers" label="internet">
+	<item label="firefox" icon="/home/matthew/.config/tint2/launchy/icons/firefox.png">
+		<action name="Execute">
+			<command>firefox</command>
+		</action>
+	</item>
+	<item label="remmina" icon="/home/matthew/.config/tint2/launchy/icons/remmina.png">
+		<action name="Execute">
+			<command>remmina</command>
+		</action>
+	</item>
+	<item label="mail" icon="/home/matthew/.config/tint2/launchy/icons/googlemail.png">
+		<action name="Execute">
+			<command>kitty -e neomutt</command>
+		</action>
+	</item>
+</menu>
+<menu id="music" label="music">
+	<item label="ncmpcpp" icon="/home/matthew/.config/tint2/launchy/icons/headphones.png">
+		<action name="Execute">
+			<command>kitty -e ncmpcpp</command>
+		</action>
+	</item>
+	<item label="renoise" icon="/home/matthew/.config/tint2/launchy/icons/piano.png">
+		<action name="Execute">
+			<command>remmina</command>
+		</action>
+	</item>
+	<item label="audacious" icon="/home/matthew/.config/tint2/launchy/icons/audacious.png">
+		<action name="Execute">
+			<command>audacious</command>
+		</action>
+	</item>
+</menu>
+<menu id="graphics" label="graphics">
+	<item label="gimp" icon="/home/matthew/.config/tint2/launchy/icons/gimp.png">
+		<action name="Execute">
+			<command>gimp</command>
+		</action>
+	</item>
+	<item label="scrot" icon="/home/matthew/.config/tint2/launchy/icons/scrot.png">
+		<action name="Execute">
+			<command>scrot -d 3 ~/</command>
+		</action>
+	</item>
+	<item label="mpv" icon="/home/matthew/.config/tint2/launchy/icons/movie.png">
+		<action name="Execute">
+			<command>mpv</command>
+		</action>
+	</item>
+</menu>
+<menu id="openbox" label="openbox">
+	<item label="obconf" icon="/home/matthew/.config/tint2/launchy/icons/obconf.png">
+		<action name="Execute">
+			<command>obconf</command>
+		</action>
+	</item>
+	<item label="lxappearance" icon="/home/matthew/.config/tint2/launchy/icons/settings.png">
+		<action name="Execute">
+			<command>lxappearance</command>
+		</action>
+	</item>
+</menu>
+
+<menu id="root-menu" label="Openbox 3">
+	<item label="matthew" icon="/home/matthew/.config/tint2/launchy/icons/matthew.png">
+		<action name="Execute">
+			<command>notify-send Hello Matthew, Welcome to Daemonic</command>
+		</action>
+	</item>
+	<separator/>
+	<item label="kitty" icon="/home/matthew/.config/tint2/launchy/icons/terminal.png">
+		<action name="Execute">
+			<command>kitty</command>
+		</action>
+	</item>
+	<item label="files" icon="/home/matthew/.config/tint2/launchy/icons/thunar.png">
+		<action name="Execute">
+			<command>Thunar</command>
+		</action>
+	</item>
+	<separator/>
+	<menu id="browsers" icon="/home/matthew/.config/tint2/launchy/icons/browser.png"/>
+	<menu id="music" icon="/home/matthew/.config/tint2/launchy/icons/music.png"/>
+	<menu id="graphics" icon="/home/matthew/.config/tint2/launchy/icons/camera.png"/>
+	<separator/>
+	<item label="leafpad" icon="/home/matthew/.config/tint2/launchy/icons/leafpad.png">
+		<action name="Execute">
+			<command>leafpad</command>
+		</action>
+	</item>
+	<separator/>
+	<menu id="openbox" icon="/home/matthew/.config/tint2/launchy/icons/openbox.png"/>
+	<separator/>
+	<item label="lock" icon="/home/matthew/.config/tint2/launchy/icons/lock.png">
+		<action name="Execute">
+			<command>slimlock</command>
+		</action>
+	</item>
+	<item label="logout" icon="/home/matthew/.config/tint2/launchy/icons/logout.png">
+		<action name="SessionLogout">
+			<prompt>yes</prompt>
+		</action>
+	</item>
+</menu>
+
+</openbox_menu>

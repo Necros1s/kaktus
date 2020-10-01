@@ -1,0 +1,6 @@
+[Text]
+Normal=#947e7b
+Current=#e46c6d
+NormalBG=#f9faf4
+SelectedBG=#dbd9da
+Font=cinnamonroll
