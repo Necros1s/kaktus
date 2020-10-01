@@ -3,63 +3,63 @@
 <openbox_menu>
 
 <menu id="browsers" label="internet">
-	<item label="firefox" icon="/home/matthew/.config/tint2/launchy/icons/firefox.png">
+	<item label="firefox" icon="/home/matthew/.config/tint2/kaktus/icons/firefox.png">
 		<action name="Execute">
 			<command>firefox</command>
 		</action>
 	</item>
-	<item label="remmina" icon="/home/matthew/.config/tint2/launchy/icons/remmina.png">
+	<item label="remmina" icon="/home/matthew/.config/tint2/kaktus/icons/remmina.png">
 		<action name="Execute">
 			<command>remmina</command>
 		</action>
 	</item>
-	<item label="mail" icon="/home/matthew/.config/tint2/launchy/icons/googlemail.png">
+	<item label="mail" icon="/home/matthew/.config/tint2/kaktus/icons/googlemail.png">
 		<action name="Execute">
 			<command>kitty -e neomutt</command>
 		</action>
 	</item>
 </menu>
 <menu id="music" label="music">
-	<item label="audacious" icon="/home/matthew/.config/tint2/launchy/icons/headphones.png">
+	<item label="audacious" icon="/home/matthew/.config/tint2/kaktus/icons/headphones.png">
 		<action name="Execute">
 			<command>audacious</command>
 		</action>
 	</item>
-	<item label="renoise" icon="/home/matthew/.config/tint2/launchy/icons/piano.png">
+	<item label="renoise" icon="/home/matthew/.config/tint2/kaktus/icons/piano.png">
 		<action name="Execute">
 			<command>remmina</command>
 		</action>
 	</item>
-	<item label="ncmpcpp" icon="/home/matthew/.config/tint2/launchy/icons/audacious.png">
+	<item label="ncmpcpp" icon="/home/matthew/.config/tint2/kaktus/icons/audacious.png">
 		<action name="Execute">
 			<command>kitty -e ncmpcpp</command>
 		</action>
 	</item>
 </menu>
 <menu id="graphics" label="graphics">
-	<item label="gimp" icon="/home/matthew/.config/tint2/launchy/icons/gimp.png">
+	<item label="gimp" icon="/home/matthew/.config/tint2/kaktus/icons/gimp.png">
 		<action name="Execute">
 			<command>gimp</command>
 		</action>
 	</item>
-	<item label="scrot" icon="/home/matthew/.config/tint2/launchy/icons/scrot.png">
+	<item label="scrot" icon="/home/matthew/.config/tint2/kaktus/icons/scrot.png">
 		<action name="Execute">
 			<command>scrot -d 3 ~/</command>
 		</action>
 	</item>
-	<item label="mpv" icon="/home/matthew/.config/tint2/launchy/icons/movie.png">
+	<item label="mpv" icon="/home/matthew/.config/tint2/kaktus/icons/movie.png">
 		<action name="Execute">
 			<command>mpv</command>
 		</action>
 	</item>
 </menu>
 <menu id="openbox" label="openbox">
-	<item label="obconf" icon="/home/matthew/.config/tint2/launchy/icons/obconf.png">
+	<item label="obconf" icon="/home/matthew/.config/tint2/kaktus/icons/obconf.png">
 		<action name="Execute">
 			<command>obconf</command>
 		</action>
 	</item>
-	<item label="lxappearance" icon="/home/matthew/.config/tint2/launchy/icons/settings.png">
+	<item label="lxappearance" icon="/home/matthew/.config/tint2/kaktus/icons/settings.png">
 		<action name="Execute">
 			<command>lxappearance</command>
 		</action>
@@ -67,41 +67,41 @@
 </menu>
 
 <menu id="root-menu" label="Openbox 3">
-	<item label="matthew" icon="/home/matthew/.config/tint2/launchy/icons/matthew.png">
+	<item label="matthew" icon="/home/matthew/.config/tint2/kaktus/icons/matthew.png">
 		<action name="Execute">
 			<command>notify-send Hello Matthew, Welcome to Daemonic</command>
 		</action>
 	</item>
 	<separator/>
-	<item label="kitty" icon="/home/matthew/.config/tint2/launchy/icons/terminal.png">
+	<item label="kitty" icon="/home/matthew/.config/tint2/kaktus/icons/terminal.png">
 		<action name="Execute">
 			<command>kitty</command>
 		</action>
 	</item>
-	<item label="files" icon="/home/matthew/.config/tint2/launchy/icons/thunar.png">
+	<item label="files" icon="/home/matthew/.config/tint2/kaktus/icons/thunar.png">
 		<action name="Execute">
 			<command>Thunar</command>
 		</action>
 	</item>
 	<separator/>
-	<menu id="browsers" icon="/home/matthew/.config/tint2/launchy/icons/browser.png"/>
-	<menu id="music" icon="/home/matthew/.config/tint2/launchy/icons/music.png"/>
-	<menu id="graphics" icon="/home/matthew/.config/tint2/launchy/icons/camera.png"/>
+	<menu id="browsers" icon="/home/matthew/.config/tint2/kaktus/icons/browser.png"/>
+	<menu id="music" icon="/home/matthew/.config/tint2/kaktus/icons/music.png"/>
+	<menu id="graphics" icon="/home/matthew/.config/tint2/kaktus/icons/camera.png"/>
 	<separator/>
-	<item label="leafpad" icon="/home/matthew/.config/tint2/launchy/icons/leafpad.png">
+	<item label="leafpad" icon="/home/matthew/.config/tint2/kaktus/icons/leafpad.png">
 		<action name="Execute">
 			<command>leafpad</command>
 		</action>
 	</item>
 	<separator/>
-	<menu id="openbox" icon="/home/matthew/.config/tint2/launchy/icons/openbox.png"/>
+	<menu id="openbox" icon="/home/matthew/.config/tint2/kaktus/icons/openbox.png"/>
 	<separator/>
-	<item label="lock" icon="/home/matthew/.config/tint2/launchy/icons/lock.png">
+	<item label="lock" icon="/home/matthew/.config/tint2/kaktus/icons/lock.png">
 		<action name="Execute">
 			<command>slimlock</command>
 		</action>
 	</item>
-	<item label="logout" icon="/home/matthew/.config/tint2/launchy/icons/logout.png">
+	<item label="logout" icon="/home/matthew/.config/tint2/kaktus/icons/logout.png">
 		<action name="SessionLogout">
 			<prompt>yes</prompt>
 		</action>
